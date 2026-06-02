@@ -1,52 +1,39 @@
-# Flappy goes to space
+# Flappy Space
 
-Flappy goes to space is a React + Canvas arcade game inspired by Flappy Bird. You start with classic obstacle dodging, then climb into deep space with zero-gravity movement and shooter segments.
+React and Canvas arcade game that expands Flappy Bird-style play into space movement and shooter segments.
 
-## Features
-
-- Three game modes: Classic, Blended, and Deep Space
-- Smooth altitude transition from sky to space
-- Zero-gravity thruster control in space
-- Dynamic speed ramp as score increases
-- Shooter mini-game events at score milestones
-- Tailwind CSS powered overlays and UI
-
-## Controls
-
-- `Space` or `W`: flap in atmosphere, thrust up in space, and start/restart game
-- `S`: thrust down in space
-- `Enter` or `D`: shoot during shooter phase
+## Key Features
+- React and Canvas arcade game that expands Flappy Bird-style play into space movement and shooter segments
+- Existing media assets are referenced only where they are already present in the repository.
+- Package scripts provide reproducible development, build, and preview commands.
 
 ## Tech Stack
-
+- JavaScript/TypeScript
 - React
 - Vite
-- HTML5 Canvas
-- Tailwind CSS v4
+- Tailwind CSS
+- HTML/CSS
 
-## Run Locally
+## Project Structure
+- src/app or app - application routes, screens, and layout files.
+- public / assets - static images, icons, manifests, and visual assets.
 
-1. Install dependencies:
-
+## Setup and Run
 ```bash
+git clone https://github.com/theadhithyankr/flappy-space.git
+cd flappy-space
 npm install
-```
-
-2. Start dev server:
-
-```bash
 npm run dev
-```
-
-3. Open the local URL shown in terminal (usually `http://localhost:5173` or next free port).
-
-## Build
-
-```bash
 npm run build
+npm run preview
 ```
 
-## Notes
+## Screenshots and Media
+- Existing asset: src/assets/hero.png
 
-- If the default port is occupied, Vite will automatically choose another port.
-- Use the mode buttons on the start screen before pressing Space.
+## What This Project Demonstrates
+- Building user-facing web applications with component-based UI and modern frontend tooling.
+- Presenting project scope, setup, and technical choices clearly for reviewers and recruiters.
+
+## Repository
+- GitHub: https://github.com/theadhithyankr/flappy-space
