@@ -14,7 +14,7 @@ Arcade game inspired by obstacle-dodging flight in a space setting.
 
 Flappy Space is a arcade game project in the TheAdhithyanKR/flappy-space repository. React and Canvas arcade game that expands Flappy Bird-style play into space movement and shooter segments.
 
-The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is $(@{Path=package.json; Json=}.Path), and the commands below are taken from its scripts.
+The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is `package.json`, and the commands below are taken from its scripts.
 
 ## Key Features
 
